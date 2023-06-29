@@ -1,0 +1,30 @@
+package interviewProgram;
+
+public class CountPatternFromString {
+
+	public static void main(String[] args)
+	{
+		String s ="abcdefabcdefxyzdef";
+		
+		String arr[]= new String[s.length()-2];
+		
+		String pattern="abc";
+		String s1="";
+		
+		int count=0;
+		int end = 3;
+		
+		for(int start=0; end<s.length(); start++)
+		{
+			s1=s.substring(start, end);
+			if(s1.equals(pattern))
+			{
+				
+				arr[start]=s1;
+				count++;
+			}
+		}
+		System.out.println(count);  // 2
+	}
+
+}

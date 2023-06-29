@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;categoriesmethod.package-info.java&apos; to &apos;NoReturnNoArgs.java&apos;&#x0D;&#x0A;- Original project: &apos;Ishwar123&apos;&#x0D;&#x0A;- Original element: &apos;categoriesmethod.package-info.java&apos;&#x0D;&#x0A;- Renamed element: &apos;categoriesmethod.NoReturnNoArgs.java&apos;" description="Rename compilation unit &apos;package-info.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;categoriesmethod{package-info.java" name="NoReturnNoArgs.java" references="false" stamp="1675951534562" version="1.0"/>
+</session>

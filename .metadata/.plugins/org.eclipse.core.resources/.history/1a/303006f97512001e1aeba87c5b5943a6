@@ -1,0 +1,11 @@
+package ishwar_practice_organisation;
+
+public class RemoveDuplicate {
+
+	public static void main(String[] args)
+	{
+		String s= "MaManamadnmad"; 
+
+	}
+
+}

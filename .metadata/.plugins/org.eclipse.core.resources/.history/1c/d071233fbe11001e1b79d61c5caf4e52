@@ -1,0 +1,27 @@
+package test;
+
+import org.testng.annotations.Test;
+
+public class AddTocartTest extends BaseTest
+{
+	@Test (priority=1)
+	public void search()
+	{
+     cart.searchtext("Wine");
+	}
+	@Test (priority=1)
+	public void search()
+	{
+     cart.searchtext("Wine");
+	}
+	@Test (priority=1)
+	public void productsearch()
+	{
+		cart.SearchProduct();
+	}
+	@Test (priority=1)
+	public void AddProduct()
+	{
+    cart.Addbasket();
+	}
+}

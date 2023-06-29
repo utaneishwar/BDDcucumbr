@@ -1,0 +1,29 @@
+package interviewProgram;
+
+public class DataHidingConcept {
+
+	int balance=50000;
+	int total=0;
+	public void GetBalance(int pin, int amount)
+	{
+		if(pin==1234)
+		{
+			if(balance>=amount)
+			{
+				 total =balance-amount;
+				 System.out.println(" your balance is "+ total);
+			}
+			else
+			{
+			System.out.println("your balance is low");	
+			}
+			
+		}
+		else
+		{
+			System.out.println(" incorrect pin ");
+		}
+		
+	}
+
+}

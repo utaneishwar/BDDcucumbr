@@ -1,0 +1,11 @@
+package practic_set_for_string_program;
+
+public class ABCPattern {
+
+	public static void main(String[] args)
+	{
+		
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package tusharpracticeset;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class WebElementMethodPerform 
+{
+	@Test
+	public void isDisplayedmethod()
+	{
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.amazon.in/");
+		
+		WebElement cartIcon = driver.findElement(By.xpath("//*[@id='nav-cart-count']"));
+		boolean value = cartIcon.isDisplayed();
+		System.out.println(value);
+	}
+}

@@ -1,0 +1,12 @@
+package waits;
+
+public class IshwarPracticeFluentWait {
+
+	public static void main(String[] args) 
+	{
+		IshwarPractice call = new IshwarPractice();
+		call.Chromedriver();
+
+	}
+
+}

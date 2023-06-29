@@ -1,0 +1,21 @@
+package extentreport;
+
+import java.io.File;
+
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
+
+
+
+public class ExtentReportGenrate 
+{
+ public void ExtentReport()
+ {
+	 String file = System.getProperty("User.dir")+"//reports//MavenTestng.html";
+	 ExtentHtmlReporter reporter =new ExtentHtmlReporter(file);
+	 reporter.config().setTheme(Theme.STANDARD);
+	 reporter.config().setReportName("7th jan batch");
+	 
+	 
+ }
+}

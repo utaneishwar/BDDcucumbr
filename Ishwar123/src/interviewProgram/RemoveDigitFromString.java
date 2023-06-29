@@ -1,0 +1,28 @@
+package interviewProgram;
+
+public class RemoveDigitFromString 
+{
+
+	public static void main(String[] args)
+	{
+		String s = "i12s3hwar45";
+		
+		String print = s.replaceAll("[^a-z]", "");
+		System.out.println(print);
+		
+		String n= "";
+		for(int i=0; i<s.length(); i++)
+		{
+			if(!(Character.isDigit(s.charAt(i))))
+			{
+				n=n+s.charAt(i);
+				
+			}
+		}
+		System.out.println(n);
+		
+		}
+
+	}
+
+

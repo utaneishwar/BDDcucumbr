@@ -1,0 +1,36 @@
+package interviewProgram;
+
+import java.util.Arrays;
+
+public class RemoveDuplicateValueFromArray {
+
+	public static void main(String[] args) 
+	{
+		int a[]= {5,7,2,5,8,9,8};
+		int b[]=new int [a.length];
+		int c=0;
+		
+		for(int i=0;i<a.length; i++)
+		{
+			for(int j=i+1; j<a.length-1; j++)
+			{
+			if(a[i]!=a[j])
+			{
+				b[c] =a[i];
+				c++;
+			}
+		}
+		}
+		
+		b[c]=a[a.length];
+		System.out.println("");
+  for(int i=0;i<=c; i++)
+  {
+	  System.out.println(b[i]);
+  }
+		
+
+
+	}
+
+}

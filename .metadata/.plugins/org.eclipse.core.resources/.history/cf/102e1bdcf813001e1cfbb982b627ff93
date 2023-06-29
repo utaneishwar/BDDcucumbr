@@ -1,0 +1,10 @@
+package tusharpracticeset;
+
+public class ExcelHandlingReadAndWrite
+{
+	public static void main(String[] args) 
+	{
+        String path = System.getProperty("user.dir")+"\\excel.xlsx";
+	}
+
+}

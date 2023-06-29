@@ -1,0 +1,11 @@
+package interviewProgram;
+
+public class DataHidingConcept2 {
+
+	public static void main(String[] args) 
+	{
+		DataHidingConcept dh =new DataHidingConcept();
+		dh.GetBalance(123, 30000);
+	}
+
+}

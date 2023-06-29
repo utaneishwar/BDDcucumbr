@@ -1,0 +1,19 @@
+package utility;
+
+import java.io.File;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
+public class Screenshotcode
+{
+ public void ScreenshotReader(WebDriver driver ,String Filename)
+ {
+       TakesScreenshot ts = (TakesScreenshot)driver;
+       ts.getScreenshotAs(OutputType.FILE);
+       System.getProperty("User.dir")+"\\Reports\\Screenshots"+"Filename"+.jpg";
+       	
+	
+}
+}

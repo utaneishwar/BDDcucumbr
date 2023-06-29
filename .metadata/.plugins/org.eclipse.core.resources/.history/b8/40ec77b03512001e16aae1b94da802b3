@@ -1,0 +1,51 @@
+package pages;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class AddToCart
+{
+ WebDriver driver;
+ WebDriverWait  wait;
+	@FindBy (xpath ="(//*[@name='q'])[1]")
+	WebElement search;
+	@FindBy (xpath="//*[@class='needsclick klaviyo-close-form kl-private-reset-css-Xuajs1']")
+	WebElement popup;
+	@FindBy (xpath ="(//*[@class='grid-item__content'])[1]")
+	WebElement image;
+	@FindBy (xpath="//*[@name='add']")
+	WebElement submit;
+	
+	public AddToCart (WebDriver driver)
+	{
+		this.driver = driver;
+	PageFactory.initElements(driver, this);
+	//wait =new WebDriverWait(driver, Duration.ofSeconds(60));
+	}
+	public void handle ()
+	{
+		popup.click();
+	}
+	
+	public void searchtext(String searchtext)
+	{
+		
+       search.sendKeys(searchtext);
+	}
+	public void SearchProduct()
+	{
+		image.click();
+	}
+	public void Addbasket()
+	{
+		submit.click();
+	}
+	
+	
+	
+}

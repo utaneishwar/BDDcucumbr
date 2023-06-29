@@ -1,0 +1,26 @@
+package stringclass;
+
+public class CountDigitInString {
+
+	public static void main(String[] args) 
+	
+	{
+		
+		 String set= "hello my 45 name 23 is ishwar";
+		  char[] cr= set.toCharArray();
+		  System.out.println(cr);
+		  int space = 0;
+		  for(int i=0; i<cr.length; i++)
+		  {
+			  if((Character.isDigit(cr[i])))
+			  {
+				 space++;
+			  }
+		  }
+		  System.out.println(space);  // 4
+		  }
+
+
+	}
+
+

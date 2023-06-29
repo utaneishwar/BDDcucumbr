@@ -1,0 +1,26 @@
+package test;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+import pages.AddToCart;
+
+public class BaseTest 
+{
+	WebDriver driver;
+	AddToCart cart;
+	@BeforeSuite
+	public void launch()
+	{
+     driver =new ChromeDriver();
+	}
+	@BeforeTest
+	public void Constructor()
+	{
+		AddToCart cart = new AddToCart (driver);
+	}
+
+
+}

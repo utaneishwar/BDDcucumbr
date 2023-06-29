@@ -1,0 +1,38 @@
+package mathoperator;
+
+public class Byte {
+
+	public static void main(String[] args) {
+		//data variablename = value
+		 
+		byte b= 10;
+		byte b1= 127;
+		byte b2 = -128;
+		
+		System.out.println(b2);
+		
+		
+		//data variablename = value
+		
+		short s =10;
+		short s1=32767;
+		short s2= -3276;
+		System.out.println(s1);
+		
+		
+		//data variablename = value
+	 
+		int i = 10;
+		int i1 = 127;
+		int i2 = 2147483647;
+		int i3 = -214748648;
+		
+		System.out.println(i3);
+		
+		
+		
+		
+
+	}
+
+}

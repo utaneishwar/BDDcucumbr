@@ -1,0 +1,42 @@
+package tusharpracticeset;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class WebElementMethodPerform 
+{
+	public static void main(String[] args)
+	{
+	
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.amazon.in/");
+
+		WebElement cartIcon = driver.findElement(By.xpath("//*[@id='nav-cart-count']"));
+		boolean value = cartIcon.isDisplayed();
+		System.out.println(value); //true
+
+		WebElement hiddenelement = driver.findElement(By.xpath("//*[@id='glowValidationToken']"));
+		boolean hiddene = hiddenelement.isDisplayed();
+		System.out.println(hiddene); // false
+	
+	// isEnabled
+		WebElement search = driver.findElement(By.xpath("//*[@id='twotabsearchtextbox']"));
+		boolean perform = search.isEnabled();
+		System.out.println(perform);
+	}
+
+	@Test
+	public void isSelected()
+	{
+
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.facebook.com/signup");
+	}
+	
+
+}

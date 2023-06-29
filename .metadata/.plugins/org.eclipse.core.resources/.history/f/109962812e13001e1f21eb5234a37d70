@@ -1,0 +1,16 @@
+package extentreport;
+
+import java.io.File;
+
+import com.aventstack.extentreports.ExtentReports;
+
+public class ExtentReportGenrate 
+{
+ public void ExtentReport()
+ {
+	 String file = System.getProperty("User.dir")+"\\reports\\MavenTestng.html";
+	 
+	 
+	 
+ }
+}

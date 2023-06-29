@@ -1,0 +1,22 @@
+package collectionpractice;
+
+import java.util.ArrayList;
+
+public class MergeTwoArrayList {
+
+	public static void main(String[] args) 
+	{
+	
+		ArrayList<String> al =new ArrayList<String>();
+		al.add("Rohan");
+		al.add("Gawade");
+		
+		ArrayList<String> al2 =new ArrayList<String>();
+		al.add("Ishwar");
+		al.add("utane");
+		
+		al.addAll(al2);
+		System.out.println(al);
+	}
+
+}

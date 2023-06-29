@@ -1,0 +1,14 @@
+package utility;
+
+import java.io.File;
+
+public class ReadData 
+{
+	public void getPropData(String key)
+	{
+		 String path = System.getProperty("user.dir")+"\\TestData\\configue.properties\\";
+		 File file = new File(path);
+		 
+	}
+
+}

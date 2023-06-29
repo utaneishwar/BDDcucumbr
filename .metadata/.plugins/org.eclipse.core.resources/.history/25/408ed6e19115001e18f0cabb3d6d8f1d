@@ -1,0 +1,23 @@
+package practic_set_for_string_program;
+
+public class ABCPattern 
+{
+	
+	public static void main(String[] args)
+	{
+		 int end = 3;
+		int count = 1;
+	String  pattern ="abc";
+		String s ="abcxyzabcdefamc";  // 
+		String b[]=new String [s.length()-2];
+		
+		for(int start=0; end<s.length();start++)
+		{
+			if( )
+			{}
+		}
+		
+		
+	}
+
+}

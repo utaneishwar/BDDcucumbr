@@ -1,0 +1,17 @@
+package ishwar_practice_organisation;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class A_AL {
+
+	public static void main(String[] args) 
+	{
+		String []s = {"Avinash","vivek","ishwar"} ;
+		ArrayList<String> al = new ArrayList<>(Arrays.asList(s));
+		System.out.println(al);
+		
+		
+	}
+
+}

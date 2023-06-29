@@ -1,0 +1,16 @@
+package pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class AddToCart
+{
+
+	@FindBy (xpath ="//*[@class='header-item header-item--search small--hide']")
+	WebElement search;
+	@FindBy (xpath ="(//*[@class='grid-item__content'])[1]")
+	WebElement image;
+	@FindBy (xpath="//*[@name='add']")
+	WebElement submit;
+	
+}

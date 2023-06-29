@@ -1,0 +1,10 @@
+package ishwar_practice_star;
+
+public class Star_pattern_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

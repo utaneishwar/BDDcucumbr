@@ -1,0 +1,99 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 71.97 s <<< FAILURE! - in TestSuite
+selectProduct(test.SpiritTest)  Time elapsed: 1.56 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="align-self-center nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">...</a> is not clickable at point (199, 61). Other element would receive the click: <div class="typeahead__backdrop" style="opacity: 0.6; position: fixed; inset: 0px; z-index: 1040; background-color: rgb(255, 255, 255);"></div>
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f1f5738a0a8fa1927fd942364d860e68, clickElement {id=E13EEEB77FE3628BD752E3770299B833_element_53}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\intel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54707/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f1f5738a0a8fa1927fd942364d860e68)] -> xpath: (//*[normalize-space(text())='SPIRITS'])[2]]
+Session ID: f1f5738a0a8fa1927fd942364d860e68
+	at test.SpiritTest.selectProduct(SpiritTest.java:19)
+
+SortByHighPrice(test.SpiritTest)  Time elapsed: 0.385 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='ddlProductSortyBy']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f1f5738a0a8fa1927fd942364d860e68, findElement {using=xpath, value=//*[@id='ddlProductSortyBy']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\intel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54707/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f1f5738a0a8fa1927fd942364d860e68
+	at test.SpiritTest.SortByHighPrice(SpiritTest.java:25)
+
+SortByAlphabates(test.SpiritTest)  Time elapsed: 0.388 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='ddlProductSortyBy']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f1f5738a0a8fa1927fd942364d860e68, findElement {using=xpath, value=//*[@id='ddlProductSortyBy']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\intel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54707/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f1f5738a0a8fa1927fd942364d860e68
+	at test.SpiritTest.SortByAlphabates(SpiritTest.java:33)
+
+verifyurlofpage(test.SpiritTest)  Time elapsed: 0.412 s  <<< FAILURE!
+java.lang.AssertionError: expected [MALT-WHISKEY (livingliquidz.com)] but found [https://livingliquidz.com/]
+	at test.SpiritTest.verifyurlofpage(SpiritTest.java:41)
+
+SelectItem(test.AddToCartTest)  Time elapsed: 3.343 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='term-656']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f1f5738a0a8fa1927fd942364d860e68, findElement {using=xpath, value=//*[@id='term-656']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\intel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54707/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f1f5738a0a8fa1927fd942364d860e68
+	at test.AddToCartTest.SelectItem(AddToCartTest.java:10)
+
+VerifyAddtoCart(test.AddToCartTest)  Time elapsed: 0.407 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='ADD TO CART']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f1f5738a0a8fa1927fd942364d860e68, findElement {using=xpath, value=//*[text()='ADD TO CART']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\intel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54707/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f1f5738a0a8fa1927fd942364d860e68
+	at test.AddToCartTest.VerifyAddtoCart(AddToCartTest.java:15)
+
+BeerSearchTest(test.BeerTest)  Time elapsed: 1.483 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="align-self-center nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">...</a> is not clickable at point (408, 61). Other element would receive the click: <div class="typeahead__backdrop" style="opacity: 0.6; position: fixed; inset: 0px; z-index: 1040; background-color: rgb(255, 255, 255);"></div>
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f1f5738a0a8fa1927fd942364d860e68, clickElement {id=E13EEEB77FE3628BD752E3770299B833_element_55}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\intel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54707/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f1f5738a0a8fa1927fd942364d860e68)] -> xpath: (//*[normalize-space(text())='BEERS'])[2]]
+Session ID: f1f5738a0a8fa1927fd942364d860e68
+	at test.BeerTest.BeerSearchTest(BeerTest.java:10)
+
+ApplyTest(test.BeerTest)  Time elapsed: 0.513 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='APPLY']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f1f5738a0a8fa1927fd942364d860e68, findElement {using=xpath, value=//*[text()='APPLY']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\intel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54707/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f1f5738a0a8fa1927fd942364d860e68
+	at test.BeerTest.ApplyTest(BeerTest.java:15)
+

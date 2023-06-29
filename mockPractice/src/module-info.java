@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author intel
+ *
+ */
+module mockPractice {
+}

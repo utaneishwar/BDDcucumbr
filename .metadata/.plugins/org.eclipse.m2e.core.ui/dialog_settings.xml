@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\intel\eclipse-workspace\BDDCucumber7thJan"/>
 			<item value="C:\Users\intel\eclipse-workspace\SeleniumAutoTool"/>
 			<item value="C:\Users\intel\eclipse-workspace\LivingLuquidz"/>
 		</list>
@@ -27,10 +28,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="BddCucumberBevarageDomain.BddCucumberBevarageDomain"/>
 		</list>
 		<list key="groupId">
+			<item value="BddCucumberBevarageDomain"/>
 		</list>
 		<list key="artifactId">
+			<item value="BddCucumberBevarageDomain"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

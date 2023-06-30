@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="cucumber.eclipse.launching.localCucumberFeature">
-    <stringAttribute key="cucumber feature" value="C:/Users/intel/eclipse-workspace/BDDCucumber7thJan/src/test/java/stepdefinitions/LogInWithStepsData.java"/>
+    <stringAttribute key="cucumber feature" value="C:/Users/intel/eclipse-workspace/BddCucumberBevarageDomain/src/test/resources/FetaureFile/signup.feature"/>
     <stringAttribute key="glue path" value="classpath:"/>
     <booleanAttribute key="is html formatter?" value="false"/>
     <booleanAttribute key="is json formatter?" value="false"/>
@@ -12,7 +12,7 @@
     <booleanAttribute key="is usage formatter" value="false"/>
     <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/BDDCucumber7thJan"/>
+        <listEntry value="/BddCucumberBevarageDomain"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="4"/>
@@ -21,5 +21,5 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="BDDCucumber7thJan"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="BddCucumberBevarageDomain"/>
 </launchConfiguration>
